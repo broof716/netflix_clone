@@ -1,3 +1,9 @@
 .box {
-    background-color: blue;
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.iconLink {
+    margin-right: 1rem;
 }

@@ -8,7 +8,9 @@ import styles from './Footer.module.css';
 function Footer() {
     return (
         <footer>
-            <SocialLinks />
+            <div className={styles.socialLinks}>
+                <SocialLinks />
+            </div>
             <FooterLinks />
         </footer>
     );

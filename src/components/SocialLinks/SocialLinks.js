@@ -9,18 +9,18 @@ import YoutubeIcon from './YoutubeIcon';
 function SocialLinks() {
     return (
         <div className={styles.box}>
-            <div className={styles.iconLink}>
+            <a href="facebook.com" className={styles.iconLink}>
                 <FacebookIcon />
-            </div>
-            <div className={styles.iconLink}>
+            </a>
+            <a href="instagram.com" className={styles.iconLink}>
                 <InstagramIcon />
-            </div>
-            <div className={styles.iconLink}>
+            </a>
+            <a href="twitter.com" className={styles.iconLink}>
                 <TwitterIcon />
-            </div>
-            <div className={styles.iconLink}>
+            </a>
+            <a href="youtube.com" className={styles.iconLink}>
                 <YoutubeIcon />
-            </div>
+            </a>
         </div>
     );
 }
