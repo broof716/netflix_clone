@@ -9,6 +9,7 @@
     right: 0;
     left: 0;
     margin: 0 40px;
+    z-index: 1000;
 }
 
 .mainNavigation {
@@ -16,8 +17,8 @@
 }
 
 .logo {
-    max-width: 92px;
     height: fit-content;
+    max-width: 92px;
 }
 
 .navigationList {
@@ -32,6 +33,7 @@
     margin-left: 1rem;
     font-size: 0.8rem;
 }
+
 .navigationItem a {
     color: inherit;
     text-decoration: none;
