@@ -1,3 +1,19 @@
+.segment {
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
 .title {
     color: #e5e5e5;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.row {
+    display: flex;
+}
+
+.row img {
+    margin-right: 0.5rem;
+    border-radius: 4px;
 }
