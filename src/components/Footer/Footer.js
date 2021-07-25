@@ -7,7 +7,7 @@ import styles from './Footer.module.css';
 
 function Footer() {
     return (
-        <footer>
+        <footer className={styles.box}>
             <div className={styles.socialLinks}>
                 <SocialLinks />
             </div>

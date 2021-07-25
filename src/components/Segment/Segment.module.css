@@ -10,6 +10,10 @@
     font-size: 0.8rem;
 }
 
+.icon {
+    margin-left: 0.3rem;
+}
+
 .row {
     display: flex;
 }
