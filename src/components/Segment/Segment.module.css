@@ -1,6 +1,7 @@
 .segment {
     overflow: hidden;
     margin-bottom: 1.5rem;
+    position: relative;
 }
 
 .title {
@@ -16,4 +17,19 @@
 .row img {
     margin-right: 0.5rem;
     border-radius: 4px;
+}
+
+.button {
+    display: none;
+    height: 165px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+}
+
+.row:hover .button {
+    display: block;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import placeholderImg from './assets/thumbnail-top10-h.jpg'
+import ChevronRightIcon from './ChevronRightIcon';
 import styles from './Segment.module.css';
 
 function Segment({ title }) {
@@ -13,6 +14,9 @@ function Segment({ title }) {
             <img src={placeholderImg} alt="" />
             <img src={placeholderImg} alt="" />
             <img src={placeholderImg} alt="" />
+            <button className={styles.button}>
+                <ChevronRightIcon />
+            </button>
             </div>
         </div>
     );
